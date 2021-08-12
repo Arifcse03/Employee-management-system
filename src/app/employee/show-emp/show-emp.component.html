@@ -1,0 +1,29 @@
+
+<!--table start from here-->
+
+<table class="table table-striped">
+
+      <thead>
+          <tr>
+              <th>Employee Id </th>
+              <th>Employee Name </th>
+              <th>Department </th>
+              <th>DateOf Join</th>
+              <th>Profile Picture </th>
+
+
+          </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let data of EmployeeList">
+            <td>{{data.EmployeeId}} </td>
+            <td>{{data.EmployeeName}} </td>
+            <td>{{data.Department}} </td>
+            <td>{{data.DateOfJoin}} </td>
+            <td>{{data.ProfilePicture}} </td>
+
+
+      </tr>
+      </tbody>
+</table>
+
